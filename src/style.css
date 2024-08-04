@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    gap:100px;
+    justify-content: center;
+    margin-top:100px;
+}
+.board-1,.board-2{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 500px;
+    height: 500px;
+    border:1px solid rgb(49, 48, 48);
+
+}
+.cell-1,.cell-2{
+    border: 1px solid rgb(53, 52, 52);
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(49, 48, 48);
+}
+.title{
+    position:absolute;
+    top: 0;
+}
+.title h1{
+    font-size: 80px;
+    color: rgb(49, 48, 48);
+}
+button{
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius:20px;
+    position:absolute;
+    right:46%;
+}
